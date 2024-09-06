@@ -1,6 +1,6 @@
 Description: Flight Reservation
 
-'Flight Reservation' is Spring boot + Microservices based Java EE application that helps in booking flight tickets.
+'Flight Reservation' in Spring boot that helps in booking flight tickets(MMT like)
 
 Tools used:
 
