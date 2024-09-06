@@ -1,4 +1,4 @@
-package com.magictrip.flightbooking.configuration.copy;
+package com.flightbooking.configuration;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

@@ -1,4 +1,4 @@
-package com.magictrip.flightbooking;
+package com.flightbooking;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

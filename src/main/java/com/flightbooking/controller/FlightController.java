@@ -1,13 +1,13 @@
-package com.magictrip.flightbooking.controller;
+package com.flightbooking.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.magictrip.flightbooking.service.FlightService;
+import com.flightbooking.service.FlightService;
 
 @RestController
-public class HomeController {
+public class FlightController {
 	
 	@Autowired
 	FlightService flightService;
@@ -33,9 +33,9 @@ public class HomeController {
 	}
 	
 
-	@GetMapping("/checkin")
+	@GetMapping("/myWebsite")
 	public String checkinPage() {
-		return "checkin";
+		return "mariana trench";
 	}
 	
 	@GetMapping("/saveFlight")
